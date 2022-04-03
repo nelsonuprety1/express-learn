@@ -1,7 +1,6 @@
 const express = require('express');
 const app = express();
 const people = require('./routes/people');
-// let { people } = require('./data');
 const auth = require('./routes/auth');
 
 // static assets
